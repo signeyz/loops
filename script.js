@@ -30,3 +30,12 @@ while (b < appleProducts.length) {
   console.log(appleProducts[b]);
   b++;
 }
+
+// FOR...OF loop
+
+const characters = ['luigi', 'mario', 'bowser'];
+
+for (const [index, character] of characters.entries()) {
+  console.log(index);
+  console.log(character);
+}
