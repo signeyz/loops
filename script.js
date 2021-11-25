@@ -19,3 +19,14 @@ do {
   console.log(fruits[a]);
   a++;
 } while (a < fruits.length);
+
+// WHILE Loop
+
+const appleProducts = ['iphone', 'air-pods', 'apple watch'];
+
+b = 0;
+
+while (b < appleProducts.length) {
+  console.log(appleProducts[b]);
+  b++;
+}
